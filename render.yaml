@@ -2,7 +2,7 @@ services:
   - type: web
     name: roblox-api
     env: node
-    plan: starter
+    plan: Hobby
     buildCommand: "npm install"
     startCommand: "npm start"
     autoDeploy: true
